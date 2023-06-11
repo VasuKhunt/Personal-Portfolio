@@ -1,7 +1,7 @@
 function sendemail() {
     Email.send({
-        SecureToken: "93ec77c5-d6ef-48b7-a78d-68eff9c85c95",
-        To : 'khuntv82@gmail.com',
+        SecureToken: "6ae5ab62-c828-40fe-83f8-53dcf147d3a5",
+        To : 'vmrecords01@gmail.com',
         From : document.getElementById("email").value,
         Subject : "New Contact From Inquiry",
         Body : "Name: " + document.getElementById("name").value
